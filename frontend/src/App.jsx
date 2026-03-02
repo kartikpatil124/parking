@@ -65,7 +65,7 @@ function App() {
       </div>
 
       <div className="col-span-8" style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
+        <div className="cards-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
           <PredictionCard prediction={prediction} />
           <RecommendationCard recommendation={recommendation} />
         </div>
