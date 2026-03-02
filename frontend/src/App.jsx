@@ -53,7 +53,7 @@ function App() {
           </svg>
           AI-Powered Autonomous Parking Intelligence Platform
         </h1>
-        <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+        <div className="header-actions">
           <div className="live-badge">
             <span className="dot"></span>
             LIVE SYSTEM
